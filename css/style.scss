@@ -1,0 +1,240 @@
+@font-face{
+    src: url(../fonts/HelveticaBold.ttf);
+    font-family:HelveticaBold;
+}
+@font-face{
+    src: url(../fonts/HelveticaNeuBold.ttf);
+    font-family:HelveticaNeuBold;
+}
+@font-face{
+    src: url(../fonts/HelveticaNeue.ttf);
+    font-family:HelveticaNeue;
+}
+@font-face{
+    src: url(../fonts/HelveticaNeueLight.ttf);
+    font-family:HelveticaNeueLight;
+}
+@font-face{
+    src: url(../fonts/HelveticaNormal.ttf);
+    font-family:HelveticaNormal;
+}
+@mixin fontPackage1 {
+    font-family:HelveticaNormal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #424242;
+    
+}
+@mixin fontPackage2 {
+    font-family:HelveticaNeuBold;
+    font-weight: 700;
+    font-size: 15px;
+    color: #424242;
+    transition: 0.5s;
+    
+}
+@mixin btnFunc {
+    margin-left: 27px !important;
+    border-radius: 5px;
+    border: none;
+    width: 171px;
+    height: 37px;
+    background: #de2b24;
+    color: white;  
+}
+@mixin textStyle{
+    list-style:none;
+    text-decoration: none;
+}
+@mixin bodyText {
+    font-family:HelveticaNeuBold;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+@mixin bodyText2 {
+    font-family:HelveticaNeueLight;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+@mixin btnFunc2 {
+    font-family:HelveticaNeuBold;
+    font-weight: 400;
+    font-size: 23.23px;
+    border-radius: 5px;
+    border: none;
+    width: 330px;
+    height: 75px;
+    background: #f8cd53;
+    color: #ffffff;  
+    text-align:center;
+    display: block;
+    margin: 0 auto !important;
+    transition: 0.5s;
+}
+.iconSize{
+    font-size: 28px;
+}
+.thin{
+    background: #f0f2f4;
+    .container{
+        background: #f0f2f4;
+        ul{
+            background: #f0f2f4;
+            
+            li{
+                &:hover a{
+                    color:#de2b24 ; 
+                    }
+                a{
+                    @include textStyle();
+                    @include fontPackage1();
+                }
+                &:last-child a{
+                    padding-right: 0;
+                    padding-left: 0;
+                    font-size: 16px;
+                    color: #1287bf;
+                }
+            }
+        }
+    }
+}
+// header starts
+.menu ul li a{
+    @include fontPackage2();
+}
+.menu ul li:hover a{
+        color:#de2b24 !important;
+}
+.btn-custom{
+  @include btnFunc();
+}
+.btn-custom2{
+    @include btnFunc();
+  }
+
+// header ends
+// banner starts
+.banner {
+	background-image: url(../images/banner.jpg);
+	background-size:cover;
+	background-position: center;
+    height: 700px;
+    width: 100%;
+	// padding: 40px 0;
+}
+h1{
+    @include bodyText();
+}
+h2{
+    @include bodyText2();
+}
+.btn-custom1{
+    @include btnFunc2();
+    &:hover{
+        background:#de2b24 ;
+    }
+}
+.content_padding{
+    padding-top:170px;
+    padding-bottom: 230px;
+}
+// banner ends
+// about us begins
+.about{
+    padding-top: 90px;
+    padding-bottom: 110px;
+    .aboutText{
+        h1{
+            font-family:HelveticaNeuBold, sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            color: #424242;
+            text-align: centre;
+        }
+        h4{
+            font-family:HelveticaNeueLight, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            color: #424242;
+            text-align: center;
+        }
+        hr{
+            width: 50px;
+            border: 4px solid #424242;
+        }
+    }
+}
+.thumbsUp img{
+    display: block;
+    margin: 20px auto;
+}
+.singleText{
+    text-align: center;
+    h2{
+        font-family:HelveticaNeuBold, sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        color: #424242; 
+        margin: 0 auto;
+    }
+    .textP{
+        font-family:HelveticaNeuLight, sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #5c5c5c;
+        word-spacing: 0.2rem;
+    }
+}
+
+// about us ends
+// gallery begins
+.gallery{
+    background: #f3f3f3;
+    padding-top: 85px;
+    padding-bottom: 125px;
+    .aboutText2{
+        h1{
+            font-family:HelveticaNeuBold, sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            color: #424242;
+            text-align: centre;
+        }
+        h4{
+            font-family:HelveticaNeueLight, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            color: #424242;
+            text-align: center;
+        }
+        hr{
+            width: 50px;
+            border: 4px solid #424242;
+        }
+    }
+}
+.single1{
+    text-align: left;
+    background: #ffffff;
+    h2{
+        font-family:HelveticaNeuBold, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #424242;
+        text-align: left;
+    }
+    p{
+        font-family:HelveticaNeuLight, sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #5c5c5c;
+        word-spacing: 0.2rem;
+    }
+}
+
+// gallery ends

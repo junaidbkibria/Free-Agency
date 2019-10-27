@@ -1,0 +1,243 @@
+@font-face {
+  src: url(../fonts/HelveticaBold.ttf);
+  font-family: HelveticaBold;
+}
+
+@font-face {
+  src: url(../fonts/HelveticaNeuBold.ttf);
+  font-family: HelveticaNeuBold;
+}
+
+@font-face {
+  src: url(../fonts/HelveticaNeue.ttf);
+  font-family: HelveticaNeue;
+}
+
+@font-face {
+  src: url(../fonts/HelveticaNeueLight.ttf);
+  font-family: HelveticaNeueLight;
+}
+
+@font-face {
+  src: url(../fonts/HelveticaNormal.ttf);
+  font-family: HelveticaNormal;
+}
+
+.iconSize {
+  font-size: 28px;
+}
+
+.thin {
+  background: #f0f2f4;
+}
+
+.thin .container {
+  background: #f0f2f4;
+}
+
+.thin .container ul {
+  background: #f0f2f4;
+}
+
+.thin .container ul li:hover a {
+  color: #de2b24;
+}
+
+.thin .container ul li a {
+  list-style: none;
+  text-decoration: none;
+  font-family: HelveticaNormal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #424242;
+}
+
+.thin .container ul li:last-child a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  color: #1287bf;
+}
+
+.menu ul li a {
+  font-family: HelveticaNeuBold;
+  font-weight: 700;
+  font-size: 15px;
+  color: #424242;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.menu ul li:hover a {
+  color: #de2b24 !important;
+}
+
+.btn-custom {
+  margin-left: 27px !important;
+  border-radius: 5px;
+  border: none;
+  width: 171px;
+  height: 37px;
+  background: #de2b24;
+  color: white;
+}
+
+.btn-custom2 {
+  margin-left: 27px !important;
+  border-radius: 5px;
+  border: none;
+  width: 171px;
+  height: 37px;
+  background: #de2b24;
+  color: white;
+}
+
+.banner {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+
+h1 {
+  font-family: HelveticaNeuBold;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  font-family: HelveticaNeueLight;
+  font-weight: 300;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn-custom1 {
+  font-family: HelveticaNeuBold;
+  font-weight: 400;
+  font-size: 23.23px;
+  border-radius: 5px;
+  border: none;
+  width: 330px;
+  height: 75px;
+  background: #f8cd53;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  margin: 0 auto !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn-custom1:hover {
+  background: #de2b24;
+}
+
+.content_padding {
+  padding-top: 170px;
+  padding-bottom: 230px;
+}
+
+.about {
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+
+.about .aboutText h1 {
+  font-family: HelveticaNeuBold, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #424242;
+  text-align: centre;
+}
+
+.about .aboutText h4 {
+  font-family: HelveticaNeueLight, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+  text-align: center;
+}
+
+.about .aboutText hr {
+  width: 50px;
+  border: 4px solid #424242;
+}
+
+.thumbsUp img {
+  display: block;
+  margin: 20px auto;
+}
+
+.singleText {
+  text-align: center;
+}
+
+.singleText h2 {
+  font-family: HelveticaNeuBold, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #424242;
+  margin: 0 auto;
+}
+
+.singleText .textP {
+  font-family: HelveticaNeuLight, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #5c5c5c;
+  word-spacing: 0.2rem;
+}
+
+.gallery {
+  background: #f3f3f3;
+  padding-top: 85px;
+  padding-bottom: 125px;
+}
+
+.gallery .aboutText2 h1 {
+  font-family: HelveticaNeuBold, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #424242;
+  text-align: centre;
+}
+
+.gallery .aboutText2 h4 {
+  font-family: HelveticaNeueLight, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+  text-align: center;
+}
+
+.gallery .aboutText2 hr {
+  width: 50px;
+  border: 4px solid #424242;
+}
+
+.single1 {
+  text-align: left;
+  background: #ffffff;
+}
+
+.single1 h2 {
+  font-family: HelveticaNeuBold, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #424242;
+  text-align: left;
+}
+
+.single1 p {
+  font-family: HelveticaNeuLight, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #5c5c5c;
+  word-spacing: 0.2rem;
+}
+/*# sourceMappingURL=style.css.map */

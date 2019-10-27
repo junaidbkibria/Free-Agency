@@ -1,0 +1,211 @@
+@media (max-width:575.98px){ 
+    /* thin starts */
+    
+    /* thin ends */
+    /* header starts*/
+    .header{
+        padding: 20px 0;
+    }
+    .menu ul li a{
+        text-align: right;
+    }
+    .nav_custom{
+        font-size: 5px;
+        padding: 5px 4px !important;
+        text-align: right;
+    }
+    .btn-custom2{
+        margin-left: 0 !important;
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .img_size{
+        width: 140px !important;
+        height: 40px !important;
+    }
+    /* header ends */
+     /* banner starts */
+     .banner{
+        height: 200px;
+        width: 100%;
+    }
+    .content_padding {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .btn-custom1{
+        width: 210px;
+        height: 45px;
+        font-size: 18px;
+    }
+    /* banner ends */
+    /* about begins */
+    .aboutText h1{
+        font-size: 25px !important;
+    }
+    /* about ends */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   /* thin starts */
+  
+    /* thin ends */
+    /* header starts */
+    .header{
+        padding: 20px 0;
+    }
+    .menu ul li a{
+        text-align: right;
+    }
+    .nav_custom{
+        font-size: 5px;
+        padding: 5px 4px !important;
+        text-align: right;
+    }
+    /* header ends  */
+     /* banner starts */
+     .banner{
+        height: 230px;
+        width: 100%;
+    }
+    .content_padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .btn-custom1{
+        width: 210px;
+        height: 45px;
+        font-size: 18px;
+    }
+    /* banner ends */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   /* thin starts */
+ 
+    /* thin ends */
+    /* header starts */
+    .header{
+        padding: 20px 0;
+    }
+    .menu ul li a{
+        text-align: right;
+    }
+    .nav_custom{
+        font-size: 5px;
+        padding: 5px 4px !important;
+        text-align: right;
+    }
+    /* header ends */
+     /* banner starts */
+     .banner{
+        height: 300px;
+        width: 100%;
+    }
+    .content_padding {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .btn-custom1{
+        width: 210px;
+        height: 45px;
+        font-size: 18px;
+    }
+    /* banner ends */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   /* thin starts */
+  
+    /* thin ends */
+    /* header starts */
+    .header{
+        padding: 30px 0;
+    }
+    .nav_custom{
+        font-size: 5px;
+        padding: 20px 4px !important;
+        text-align: right;
+    }
+    /* header ends */
+     /* banner starts */
+    .banner{
+        height: 500px;
+        width: 100%;
+    }
+    .content_padding {
+        padding-top: 130px;
+        padding-bottom: 170px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .btn-custom1{
+        width: 300px;
+        height: 70px;
+        font-size: 21px;
+    }
+    /* banner ends */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   /* thin starts */
+   
+    /* thin ends */
+    /* header starts */
+    .header{
+        padding: 30px 0;
+    }
+    .nav_custom{
+        font-size: 5px;
+        padding: 20px 4px !important;
+        text-align: right;
+    }
+    /* header ends */
+    /* banner starts */
+    .banner{
+        height: 700px;
+        width: 100%;
+    }
+    .content_padding {
+        padding-top: 200px;
+        padding-bottom: 160px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .btn-custom1{
+        width: 330px;
+        height: 75px;
+        font-size: 23.23px;
+    }
+    /* banner ends */
+}   
